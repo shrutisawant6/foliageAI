@@ -1,4 +1,5 @@
-# FoliageAI ![FoliageAI_Logo_Small](https://github.com/user-attachments/assets/9d423691-2745-4068-ba0f-53d9dc5251d3)
+# Foliage AI ![FoliageAI_BlueLogo](https://github.com/user-attachments/assets/bd7094ec-7a09-4341-909a-9dc89a8aab95)
+
 
 Foliage AI is here to help us turn natural disasters into a thing of the past! 
 
