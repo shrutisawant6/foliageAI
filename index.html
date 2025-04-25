@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDVI Calculation</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="site.js"></script>
+</head>
+
+<body>
+    <h2 class="thin-long-text">NDVI(Normalized Difference Vegetation Index) Calculation</h2>
+    <br />
+    <h4>
+        - 🌿 High NDVI (close to 1.0): Healthy, dense vegetation
+    </h4>
+    <h4>
+        - 🏜️ Low NDVI (close to 0.0 or negative): Bare soil, water, or non-vegetation areas
+    </h4>
+    <br />
+
+
+    <div class="input-group">
+        <label for="nirImage">Select Near Infrared Image:</label>
+        <input type="file" id="nirImage" accept="image/*">
+    </div>
+
+    <div class="input-group">
+        <label for="redImage">Select Red Image:</label>
+        <input type="file" id="redImage" accept="image/*">
+    </div>
+
+
+    <button class="fancy-button" id="processImages">Evaluate NDVI</button>
+    <br />
+    <br />
+    <p class="three-d-text" id="output"></p>
+
+    <img id="nirPreview" class="preview" alt="NIR Image Preview">
+    <img id="redPreview" class="preview" alt="Red Image Preview">
+
+</body>
+</html>

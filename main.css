@@ -1,0 +1,118 @@
+
+.preview {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 100;
+    margin-bottom: 5px;
+    color: #034f84;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #034f84;
+    font-size: xx-large;
+}
+
+h4 {
+    color: #034f84;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: none;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+body {
+    height: 50vh;
+    background: linear-gradient(135deg, #fefbd8 40%, #ddeedd 60%);
+}
+
+
+.fancy-button {
+    background: linear-gradient(135deg, #667292, #667292);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    .fancy-button::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300%;
+        height: 300%;
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 10%, transparent 60%);
+        transition: all 0.4s ease;
+        transform: translate(-50%, -50%) scale(0);
+    }
+
+    .fancy-button:hover::before {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .fancy-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .fancy-button:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+.thin-long-text {
+    font-size: 24px;
+    font-weight: 10;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #333;
+    color: #034f84;
+    text-decoration: overline;
+    margin-bottom: 24px;
+}
+
+.three-d-text {
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #333;
+    color: #405d27;
+    font-weight: 600;
+}
+
+img:not([src]),
+img[src=""] {
+    display: none;
+}
