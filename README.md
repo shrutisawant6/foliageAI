@@ -10,7 +10,7 @@ With AI tracking tree coverage and greenery changes, we'll soon be living in lus
 
 
 
-**Demo:**
+**Demo:** https://shrutisawant6.github.io/foliageAI 
 
 ![FoliageAI_Working](https://github.com/user-attachments/assets/2e3d6aae-2255-493d-8a7a-24dfa0146fc1)
 
