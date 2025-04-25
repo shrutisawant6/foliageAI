@@ -10,4 +10,10 @@ With AI tracking tree coverage and greenery changes, we'll soon be living in lus
 
 
 
+**Demo:**
+
+![FoliageAI_Working](https://github.com/user-attachments/assets/2e3d6aae-2255-493d-8a7a-24dfa0146fc1)
+
+**Purpose:**
+
 https://github.com/user-attachments/assets/b10d04bd-94d6-4949-a4e8-162063907d1e
