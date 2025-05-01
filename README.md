@@ -1,7 +1,7 @@
 # Foliage ![FoliageAI_BlueLogo](https://github.com/user-attachments/assets/bd7094ec-7a09-4341-909a-9dc89a8aab95)
 
 
-Foliage is here to help us turn natural disasters into a thing of the past! 
+Foliage is here to help us turn breathless planet or any natural disasters into a thing of the past! 
 
 By boosting green spaces, we’ll make cities more resilient, lower insurance claims, create jobs, and even improve mental health. 
 
