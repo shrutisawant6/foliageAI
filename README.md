@@ -11,7 +11,9 @@ By boosting green spaces,
 
 With tracking tree coverage and greenery changes, we'll soon be living in lush, eco-friendly paradises. Who knew saving the planet could also save money and make you feel good? Let's make the future greener, healthier, and a lot more fun—one tree at a time!
 
-
+**How does it work:**
+- By using Near-Infrared and Red images(satellite images) of any city or town, we can calculate the Normalized Difference Vegetation Index (NDVI), a value that indicates the level of greenery in the area. This helps assess whether the city requires improvements in vegetation.
+- The system can be further developed to track NDVI values over time for each location, allowing comparisons with newer data to detect any decline and identify areas that need attention.
 
 
 **Demo:** https://shrutisawant6.github.io/foliageAI 
